@@ -11,40 +11,48 @@
 
 <body>
     <main>
-      <h1>Welcome to Pelagius!</h1>
-      <h2>What is Pelagius?</h2>
-      <p>
-        Pelagius is an open source Discord bot written in Discord.js that was designed for a very niche but useful scenario.
-        It is designed for use as a utility when modding Bethesda games such as The Elder Scrolls V: Skyrim and Fallout 4.
-        Many modding guides exist that users can follow to achieve a stable modded game. Pelagius acts as a source of
-        validation for your users to help them check if they have completed your guide correctly, and troubleshoot
-        potential problems.
-      </p>
-      <h2>What do we want from you?</h2>
-      <p>
-        Well, that depends on who you are. If you're an author of a modding guide, we'd like for you to adopt our
-        project and use it in your Discord community. Our team is ready to help you out and troubleshoot any
-        problems you may encounter when using or setting up Pelagius. We're also always open to ideas for
-        future features to be added (such as support for custom files, which is currently in progress). We ask
-        developers to test our project themselves, fork it, make their own changes, etc. Feel free to submit
-        issues and pull requests to our <a href="https://github.com/RyanEHenderson/Pelagius">GitHub repo</a>
-        so that they can be reviewed and considered for implementation.
-      </p>
-      <h2>How do I sign up?</h2>
-      <p>
-        We have a simple form below that will ask you a few questions regarding your interest in our project.
-        Submitting this form will help us know who is interested, and give us the ability to send out emails
-        regarding signficant updates to our project (or polls, questionnaires, etc).
-      </p>
-      <form>
-        <p>Signup Form Here</p>
-        <ol>
-          <li id="input-email">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" />
-          </li>
-        </ol>
-      </form>
+        <h1>Welcome to Pelagius!</h1>
+        <h2>What is Pelagius?</h2>
+        <p>
+            Pelagius is an open source Discord bot written in Discord.js that was designed for a very niche but useful scenario.
+            It is designed for use as a utility when modding Bethesda games such as The Elder Scrolls V: Skyrim and Fallout 4.
+            Many modding guides exist that users can follow to achieve a stable modded game. Pelagius acts as a source of
+            validation for your users to help them check if they have completed your guide correctly, and troubleshoot
+            potential problems.
+        </p>
+        <h2>What do we want from you?</h2>
+        <p>
+            Well, that depends on who you are. If you're an author of a modding guide, we'd like for you to adopt our
+            project and use it in your Discord community. Our team is ready to help you out and troubleshoot any
+            problems you may encounter when using or setting up Pelagius. We're also always open to ideas for
+            future features to be added (such as support for custom files, which is currently in progress). We ask
+            developers to test our project themselves, fork it, make their own changes, etc. Feel free to submit
+            issues and pull requests to our <a href="https://github.com/RyanEHenderson/Pelagius">GitHub repo</a>
+            so that they can be reviewed and considered for implementation.
+        </p>
+        <h2>How do I sign up?</h2>
+        <p>
+            We have a simple form below that will ask you a few questions regarding your interest in our project.
+            Submitting this form will help us know who is interested, and give us the ability to send out emails
+            regarding signficant updates to our project (or polls, questionnaires, etc).
+        </p>
+        <form>
+            <p>Signup Form Here</p>
+            <ol>
+                <li id="input-email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" />
+                </li>
+                <li id="input-phone">
+                    <label for="phone">Phone Number (optional)</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+                </li>
+                <li id="input-submit">
+                    <label for="submit">Submit Form</label>
+                    <input type="submit" id="submit" name="submit" value="Submit" />
+                </li>
+            </ol>
+        </form>
     </main>
 </body>
 
