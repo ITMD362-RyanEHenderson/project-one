@@ -3,7 +3,7 @@
 html {
     font-family: "Crimson Text", "Hoefler Text", Georgia, "Times New Roman", serif;
     padding: 1em;
-    font-size: 110%;
+    font-size: 90%;
 }
 
 body {
@@ -13,12 +13,12 @@ body {
 }
 
 h1 {
-    font-size: 150%;
+    font-size: 100%;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 125%;
+    font-size: 95%;
 }
 
 ul li {
@@ -31,4 +31,28 @@ ul li p {
 
 form input {
     display: block;
+}
+
+@media screen and (min-width: 200px) {
+  html {
+    font-size: 100%;
+  }
+  h1 {
+    font-size: 120%;
+  }
+  h2 {
+    font-size: 110%;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 110%;
+  }
+  h1 {
+    font-size: 150%;
+  }
+  h2 {
+    font-size: 125%;
+  }
 }
