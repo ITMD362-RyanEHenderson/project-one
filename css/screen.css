@@ -30,11 +30,11 @@ ul li p {
 }
 
 form {
-  padding-bottom: 2em;
+    padding-bottom: 2em;
 }
 
 form li {
-  padding: 0.5em 0 0 0.75em;
+    padding: 0.5em 0 0 0.75em;
 }
 
 form input {
@@ -42,25 +42,25 @@ form input {
 }
 
 @media screen and (min-width: 200px) {
-  html {
-    font-size: 100%;
-  }
-  h1 {
-    font-size: 120%;
-  }
-  h2 {
-    font-size: 110%;
-  }
+    html {
+        font-size: 100%;
+    }
+    h1 {
+        font-size: 120%;
+    }
+    h2 {
+        font-size: 110%;
+    }
 }
 
 @media screen and (min-width: 400px) {
-  html {
-    font-size: 110%;
-  }
-  h1 {
-    font-size: 150%;
-  }
-  h2 {
-    font-size: 125%;
-  }
+    html {
+        font-size: 110%;
+    }
+    h1 {
+        font-size: 150%;
+    }
+    h2 {
+        font-size: 125%;
+    }
 }
