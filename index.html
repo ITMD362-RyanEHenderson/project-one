@@ -58,21 +58,21 @@
                 <li id="input-interest">
                     <p>Interest Type</p>
                     <label for="author">Guide Author</label>
-                    <input type="radio" id="author" name="interest" value="author" />
+                    <input type="radio" id="author" name="interest" value="author" required />
                     <label for="dev">Developer</label>
-                    <input type="radio" id="dev" name="interest" value="dev" />
+                    <input type="radio" id="dev" name="interest" value="dev" required />
                     <label for="other">Other</label>
-                    <input type="radio" id="other" name="interest" value="other" />
+                    <input type="radio" id="other" name="interest" value="other" required />
                     <label for="other-specify">Other (please specify)</label>
                     <input type="text" id="other-specify" name="other-specify" />
                 </li>
                 <li id="input-name">
                   <label for="name">Full Name</label>
-                  <input type="text" name="name" id="name" placeholder="John Doe" />
+                  <input type="text" name="name" id="name" placeholder="John Doe" required />
                 </li>
                 <li id="input-email">
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" pattern="^.+@.+$" placeholder="email@example.com" />
+                    <input type="email" name="email" id="email" pattern="^.+@.+$" placeholder="email@example.com" required />
                 </li>
                 <li id="input-phone">
                     <label for="phone">Phone Number (optional)</label>
