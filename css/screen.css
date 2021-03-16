@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 html {
-  background-color: blue;
+    font-family: "Crimson Text", "Hoefler Text", Georgia, "Times New Roman", serif;
+    padding: 1em;
+    font-size: 110%;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 125%;
 }
