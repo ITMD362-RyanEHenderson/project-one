@@ -59,12 +59,12 @@
                 <li id="input-interest">
                     <p>Interest Type</p>
                     <label for="author">Guide Author</label>
-                    <input type="radio" id="author" name="interest" value="author" required />
+                    <input type="radio" id="author" name="interest" value="author" onclick="hideOther()" required />
                     <label for="dev">Developer</label>
-                    <input type="radio" id="dev" name="interest" value="dev" required />
+                    <input type="radio" id="dev" name="interest" value="dev" onclick="hideOther()" required />
                     <label for="other">Other</label>
-                    <input type="radio" id="other" name="interest" value="other" required />
-                    <label for="other-specify">Other (please specify)</label>
+                    <input type="radio" id="other" name="interest" value="other" onclick="showOther()" required />
+                    <label id="other-specify-label" for="other-specify">Other (please specify)</label>
                     <input type="text" id="other-specify" name="other-specify" />
                 </li>
                 <li id="input-name">
