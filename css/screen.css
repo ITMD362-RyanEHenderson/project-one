@@ -39,6 +39,7 @@ form li {
 
 form input {
     display: block;
+    max-width: 80%;
 }
 
 @media screen and (min-width: 200px) {
